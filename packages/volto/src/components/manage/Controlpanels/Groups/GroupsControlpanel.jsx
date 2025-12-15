@@ -157,7 +157,6 @@ const GroupsControlpanel = () => {
   );
 
   /**
-   * On search groups handler
    * @param {*} event Event object
    * @returns {undefined}
    */
@@ -188,7 +187,6 @@ const GroupsControlpanel = () => {
   }, []);
 
   /**
-   * Delete group handler
    * @param {*} event Event object.
    * @param {*} { value } id (groupname)
    * @returns {undefined}
@@ -223,7 +221,6 @@ const GroupsControlpanel = () => {
   }, []);
 
   /**
-   * Update group role
    * @param {*} name
    * @param {*} value
    */
@@ -249,7 +246,6 @@ const GroupsControlpanel = () => {
   }, []);
 
   /**
-   * Update group role submit
    * @param {*} e
    */
   const updateGroupRoleSubmit = useCallback(
@@ -277,7 +273,6 @@ const GroupsControlpanel = () => {
   );
 
   /**
-   * On add group submit
    * @param {object} data Form data from the ModalForm.
    * @param {func} callback to set new form data in the ModalForm
    * @returns {undefined}
