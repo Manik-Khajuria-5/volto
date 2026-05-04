@@ -55,7 +55,7 @@ function ContentType() {
   const intl = useIntl();
   const isClient = useClient();
   const history = useHistory();
-  const pathname = useLocation().pathname;
+  const { pathname } = useLocation();
 
   const controlpanel = useSelector((state) => state.controlpanels.controlpanel);
   const cpanelRequest = useSelector((state) => state.controlpanels);
